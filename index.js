@@ -11,8 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
-
-
+let fullName = "Hamed AlNouri"
+let yearOfBirth = 1992
+let hobby = "Guitar"
+let funFact = "I love tattoos"
+const image = "https://m.media-amazon.com/images/M/MV5BNWE4OTNiM2ItMjY4Ni00ZTViLWFiZmEtZGEyNGY2ZmNlMzIyXkEyXkFqcGdeQXVyMDU5NDcxNw@@._V1_.jpg"
 
 
 
@@ -32,8 +35,10 @@
 // const fullNameString = `My name is ${}`;
 // const yearOfBirthString =
 // const hobbyString =
-
-
+const fullNameString = `My name is ${fullName}`;
+let myAge = 2021-yearOfBirth;
+const yearOfBirthString = 'I am ${myAge}';
+const hobbyString = `My hobby is ${hobby}`;
 
 
 /**
@@ -45,14 +50,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars++
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars--
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars+=2
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars-=2
 }
